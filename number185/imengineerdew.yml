@@ -1,0 +1,25 @@
+type: code
+user-name: imengineerdew
+stage: challenges
+complexity: 11.83
+others:
+  in: 10
+  out: 8
+  totals: 18
+score:
+  initial: 99.37
+  final: 111.2
+  progress: 11.83
+global-rank:
+  initial: 6669
+  final: 4962
+  progress: 1707
+national-rank:
+  initial: 431
+  final: 341
+  progress: 90
+total-time: 23.00
+effort: 1.45
+productivity: 8.16
+date: "2023-05-16 20:32:00Z"
+path: imengineerdew.raku
