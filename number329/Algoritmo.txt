@@ -1,0 +1,31 @@
+El algoritmo que tengo planteado es la siguiente:
+
+-Sea N la cantidad de operaciones de números romanos a calcular, en este caso ingresaremos 4
+
+ *XXI - II
+ *XIII - XIV
+ *L + V
+ *XVII + III
+ 
+Cada número romano debe ser convertido a la forma decimal, y hacer sus respectivas operaciones:
+
+ * 21 - 2
+ * 13 - 14
+ * 50 + 5
+ * 18 + 13
+ 
+Hacer los respectivos cálculos de acuerdo con el signo asignado, si es +, haga la suma y si es - haga la resta
+
+ * 19
+ * -1
+ * 55
+ * 31
+ 
+ Después de efectuar los cálculos, convertir a la forma romana:
+ 
+ * XIX
+ * -I (No existe el negativo en romano)
+ * LV
+ * XXXI
+ 
+ Recuerda que este es un ejemplo, y de lo anterior es el algoritmo para calcular de acuerdo con el signo asignado por teclado
