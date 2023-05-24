@@ -7,7 +7,7 @@ sub MAIN() {
     my @Array[$size];
     my @swapsAndPasses = (0,0);
     
-    readVector(@Array, 0);
+    readVector(@Array);
     bubbleRecursive(@Array, @swapsAndPasses, $size - 1);
     print(@swapsAndPasses[1]);
     print("  ");
@@ -15,12 +15,10 @@ sub MAIN() {
     print("\n");
 }
 
-sub readVector(@vector, $index) {
-    if ($index == @vector.elems) {
-       return;
-    }
-    @vector[$index] = prompt().Int;
-    readVector(@vector, $index + 1);
+sub readVector(@vector) {
+    my $input = prompt();
+    my @numbers = $input.split(" ").map(*.Int);
+    @vector = @numbers;   
 }
 
 sub showVector(@vector, $index) {
